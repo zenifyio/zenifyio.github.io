@@ -26,70 +26,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/csharp_coding_standards.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/csharp_coding_standards.html",
-          "hash": "pdveXjYfDZuIF6B1kP4toA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/docfx_getting_started.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/docfx_getting_started.html",
-          "hash": "9BbNFmwj7smIkmsqPr2nPA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/engineering_guidelines.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/engineering_guidelines.html",
-          "hash": "RL6vhp8WuB0HkhVVuhoQuw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/images/seed.jpg",
-      "output": {
-        "resource": {
-          "relative_path": "articles/images/seed.jpg"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "q3nEGlk7BnLiks+R7rdGMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "8qBndrq2YbmLkzrO2EBQSQ=="
+          "hash": "PLieZ3Dn7OQLcvS5i3JqLg=="
         }
       },
       "is_incremental": false,
@@ -101,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatLibrary.Cat-2.html",
-          "hash": "ZR9SK/cC/X8WUwOLYNkHtg=="
+          "hash": "glkPFXuUfYr/lC0ph1KAzA=="
         }
       },
       "is_incremental": false,
@@ -149,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatLibrary.IAnimal.html",
-          "hash": "XP133FrMbHZa2fjnP82qNg=="
+          "hash": "ojqc5IdPk0rK13KiC7Z21w=="
         }
       },
       "is_incremental": false,
@@ -185,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CatLibrary.MRefDelegate-3.html",
-          "hash": "ErKBuDaPf/p6JLFJUQBy5g=="
+          "hash": "Pcy98QqZe8E9dh0ALzf73g=="
         }
       },
       "is_incremental": false,
@@ -396,6 +337,77 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "projects/csharp_coding_standards.md",
+      "output": {
+        ".html": {
+          "relative_path": "projects/csharp_coding_standards.html",
+          "hash": "LRJDPdsAajphd4JtaClI4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "projects/delta.md",
+      "output": {
+        ".html": {
+          "relative_path": "projects/delta.html",
+          "hash": "3Lyhi3eS8tCVo47+OZoLMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "projects/engineering_guidelines.md",
+      "output": {
+        ".html": {
+          "relative_path": "projects/engineering_guidelines.html",
+          "hash": "BQQcbNJEopvOH6rHTw9ntw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "projects/images/seed.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "projects/images/seed.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "projects/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "projects/introduction.html",
+          "hash": "BVzWWMmA5BODCH/2Duq+xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "projects/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "projects/toc.html",
+          "hash": "CG3zG1oRPbWMkidGefkNrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "RestApi",
       "source_relative_path": "restapi/contacts_swagger2.json",
       "output": {
@@ -437,7 +449,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "pPcq0Ovzr0O37qvXbwP1hQ=="
+          "hash": "b9dPbHBqsVo05xK5S9uAKQ=="
         }
       },
       "is_incremental": false,
@@ -447,25 +459,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 5,
-          "skipped_file_count": 0
+          "total_file_count": 6,
+          "skipped_file_count": 6
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 32,
-          "skipped_file_count": 0
+          "skipped_file_count": 32
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

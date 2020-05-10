@@ -134,6 +134,7 @@ This is a CAT class</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
 public class Cat&lt;T, K&gt; : ICat, IAnimal where T : class, new()
+
     where K : struct</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -925,6 +926,7 @@ public void Jump(T ownType, K anotherOwnType, ref bool cheat)</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void IAnimal.Eat&lt;Tool&gt;(Tool a)
+
     where Tool : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
